@@ -2,7 +2,7 @@
 <resources>
 	<string name="OK">OK</string>
 	<string name="Cancel">Cancel</string>
-	<string name="app_name">BabyAlarm</string>
+	<string name="app_name">ZBabyAlarm</string>
 	<string name="Settings">Settings</string>
 	<string name="allarm01_name">Sleep</string>
 	<string name="allarm02_name">Food</string>
