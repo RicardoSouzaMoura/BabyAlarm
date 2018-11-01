@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="OK">OK</string>
+	<string name="Cancel">Cancel</string>
+	<string name="app_name">BabyAlarm</string>
+	<string name="Settings">Settings</string>
+	<string name="allarm01_name">Sleep</string>
+	<string name="allarm02_name">Food</string>
+	<string name="allarm03_name">Diaper</string>
+	<string name="allarm04_name">Medicine</string>
+	<string name="allarm05_name">Optional</string>
+
+	<string name="alarm_started">BabyAlarm service has started</string>
+	<string name="alarm_stopped">BabyAlarm service has stopped</string>
+	<string name="alarm_label">BabyAlarm Service</string>
+	<string name="alarm_info">Alarm Controller</string>
+</resources>

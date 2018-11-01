@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="5"
+        android:background="#000000"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutPai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Linha 1 -->
+
+            <RelativeLayout
+                android:id="@+id/alarm01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CCFFCC"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/AllarmName01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000000"
+                    android:textSize="12dp"></TextView>
+
+                <TextView
+                    android:id="@+id/CountDownTimer01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="00:00:00"
+                    android:textColor="#000000"
+                    android:textSize="32dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/Button01"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/dormir"></ImageView>
+            </RelativeLayout>
+
+            <!-- Linha 2 -->
+
+            <RelativeLayout
+                android:id="@+id/alarm02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#99CCFF"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/AllarmName02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000000"
+                    android:textSize="12dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/CountDownTimer02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="00:00:00"
+                    android:textColor="#000000"
+                    android:textSize="32dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/Button02"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/mamar"></ImageView>
+
+            </RelativeLayout>
+
+            <!-- Linha 3 -->
+
+            <RelativeLayout
+                android:id="@+id/alarm03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CCFFCC"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/AllarmName03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000000"
+                    android:textSize="12dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/CountDownTimer03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="00:00:00"
+                    android:textColor="#000000"
+                    android:textSize="32dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/Button03"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/fralda"></ImageView>
+            </RelativeLayout>
+
+            <!-- Linha 4 -->
+
+            <RelativeLayout
+                android:id="@+id/alarm04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#99CCFF"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/AllarmName04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000000"
+                    android:textSize="12dp"></TextView>
+
+                <TextView
+                    android:id="@+id/CountDownTimer04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="00:00:00"
+                    android:textColor="#000000"
+                    android:textSize="32dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/Button04"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/medicine"></ImageView>
+
+            </RelativeLayout>
+
+            <!-- Linha 5 -->
+
+            <RelativeLayout
+                android:id="@+id/alarm05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CCFFCC"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/AllarmName05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000000"
+                    android:textSize="12dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/CountDownTimer05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="00:00:00"
+                    android:textColor="#000000"
+                    android:textSize="32dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/Button05"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/optional"></ImageView>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14f4ac94f0b36d"
+        ads:loadAdOnCreate="true" /-->
+    <!-- ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" -->
+
+</LinearLayout>

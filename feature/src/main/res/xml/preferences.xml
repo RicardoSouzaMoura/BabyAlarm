@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:summary="Maintain Alarm01"
+		android:title="Alarm01" android:key="preference_allarm01">
+		<EditTextPreference android:title="Name"
+			android:summary="Please Maintain the name" android:key="allarm01_name"
+			android:dependency="allarm01_active">
+		</EditTextPreference>
+		<Preference android:title="Timer" android:summary="Please Maintain the time"
+			android:key="allarm01_clock" android:dependency="allarm01_active" />
+		<RingtonePreference android:summary="Please Maintain the ringtone"
+			android:title="Ringtone" android:key="allarm01_som"
+			android:dependency="allarm01_active" android:ringtoneType="all"></RingtonePreference>
+		<CheckBoxPreference android:summary="Please Active this Alarm"
+			android:title="On/Off" android:key="allarm01_active"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Alarm02"
+		android:key="preference_allarm02" android:summary="Maintain Alarm02">
+		<EditTextPreference android:key="allarm02_name"
+			android:title="Name" android:summary="Please Maintain the name"
+			android:dependency="allarm02_active">
+		</EditTextPreference>
+		<Preference android:title="Timer" android:summary="Please Maintain the time"
+			android:key="allarm02_clock" android:dependency="allarm02_active" />
+		<RingtonePreference android:summary="Please Maintain the ringtone"
+			android:title="Ringtone" android:key="allarm02_som"
+			android:dependency="allarm02_active" android:ringtoneType="all"></RingtonePreference>
+		<CheckBoxPreference android:summary="Please Active this Alarm"
+			android:title="On/Off" android:key="allarm02_active"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Alarm03"
+		android:key="preference_allarm03" android:summary="Maintain Alarm03">
+		<EditTextPreference android:key="allarm03_name"
+			android:title="Name" android:summary="Please Maintain the name"
+			android:dependency="allarm03_active">
+		</EditTextPreference>
+		<Preference android:title="Timer" android:summary="Please Maintain the time"
+			android:key="allarm03_clock" android:dependency="allarm03_active" />
+		<RingtonePreference android:summary="Please Maintain the ringtone"
+			android:title="Ringtone" android:key="allarm03_som"
+			android:dependency="allarm03_active" android:ringtoneType="all"></RingtonePreference>
+		<CheckBoxPreference android:summary="Please Active this Alarm"
+			android:title="On/Off" android:key="allarm03_active"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Alarm04"
+		android:key="preference_allarm04" android:summary="Maintain Alarm04">
+		<EditTextPreference android:key="allarm04_name"
+			android:title="Name" android:summary="Please Maintain the name"
+			android:dependency="allarm04_active">
+		</EditTextPreference>
+		<Preference android:title="Timer" android:summary="Please Maintain the time"
+			android:key="allarm04_clock" android:dependency="allarm04_active" />
+		<RingtonePreference android:summary="Please Maintain the ringtone"
+			android:title="Ringtone" android:key="allarm04_som"
+			android:dependency="allarm04_active" android:ringtoneType="all"></RingtonePreference>
+		<CheckBoxPreference android:summary="Please Active this Alarm"
+			android:title="On/Off" android:key="allarm04_active"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Alarm05"
+		android:key="preference_allarm02" android:summary="Maintain Alarm05">
+		<EditTextPreference android:key="allarm05_name"
+			android:title="Name" android:summary="Please Maintain the name"
+			android:dependency="allarm05_active">
+		</EditTextPreference>
+		<Preference android:title="Timer" android:summary="Please Maintain the time"
+			android:key="allarm05_clock" android:dependency="allarm05_active" />
+		<RingtonePreference android:summary="Please Maintain the ringtone"
+			android:title="Ringtone" android:key="allarm05_som"
+			android:dependency="allarm05_active" android:ringtoneType="all"></RingtonePreference>
+		<CheckBoxPreference android:summary="Please Active this Alarm"
+			android:title="On/Off" android:key="allarm05_active"></CheckBoxPreference>
+	</PreferenceCategory>
+</PreferenceScreen>
